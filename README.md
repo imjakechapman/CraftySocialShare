@@ -32,7 +32,7 @@ And call that button
 
 
 ## TODO
-1. Accept array of scripts to load
-2. Accept a script/s to exclude {{ SocialShareScripts('not facebook|twitter') }} for when other buttons are added
+1. Accept pipe delimited list of scripts to load {{ SocialShareScripts('facebook|twitter') }}
+2. Accept a script/s to exclude {{ SocialShareScripts('not google|facebook') }} for when other buttons are added
 3. Accept a button/s to exclude {{ SocialBtns('not facebook|twitter') }} for when other buttons are added
 4. Accept an array of parameters for when calling a specific button {{ SocialBtn('facebook', ["width" => "125", "url" => "http://example.com"]) }}
