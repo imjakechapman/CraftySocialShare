@@ -1,11 +1,11 @@
 <?php
 namespace Craft;
 
-class SocialShareTwigExtension extends \Twig_Extension
+class CraftySocialShareTwigExtension extends \Twig_Extension
 {
   public function getName()
   {
-    return 'SocialShare';
+    return 'CraftySocialShare';
   }
 
   public function getFunctions()

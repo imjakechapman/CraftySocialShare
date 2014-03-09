@@ -1,9 +1,9 @@
 <?php
 
 /**
- * SocialShare
+ * CraftySocialShare
  *
- * @package     SocialShare
+ * @package     CraftySocialShare
  * @version     Version 0.1
  * @author      Jake Chapman
  * @copyright   Copyright (c) 2014
@@ -13,14 +13,14 @@
 
 namespace Craft;
 
-class SocialSharePlugin extends BasePlugin
+class CraftySocialSharePlugin extends BasePlugin
 {
     /**
      * Get Name
      */
     function getName()
     {
-        return Craft::t('SocialShare');
+        return Craft::t('CraftySocialShare');
     }
     
     // --------------------------------------------------------------------
@@ -65,7 +65,7 @@ class SocialSharePlugin extends BasePlugin
 
     public function addTwigExtension()
     {
-        Craft::import('plugins.socialshare.twigextensions.SocialShareTwigExtension');
-        return new SocialShareTwigExtension();
+        Craft::import('plugins.craftysocialshare.twigextensions.CraftySocialShareTwigExtension');
+        return new CraftySocialShareTwigExtension();
     }
 }
