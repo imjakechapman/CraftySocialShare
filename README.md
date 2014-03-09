@@ -38,5 +38,6 @@ And call that button
 
 
 ## TODO
-1. Refactor where needed
-2. Add more button options
+1. Refactor where needed.
+2. Add more button options.
+3. Add option to wrap each button in an element and give it an optional class name for better styling control.
