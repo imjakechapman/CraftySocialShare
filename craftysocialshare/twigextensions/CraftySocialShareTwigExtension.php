@@ -36,7 +36,7 @@ class CraftySocialShareTwigExtension extends \Twig_Extension
   public function getSocialShareScripts($scriptList = null)
   {
 
-    $scripts; // scripts to echo
+    $scripts = ''; // scripts to echo
 
     if ( $scriptList != null ) {
       $scriptList = explode('|', $scriptList); // pipe delimited list of scripts to include
@@ -131,7 +131,7 @@ class CraftySocialShareTwigExtension extends \Twig_Extension
    */
   public function getSocialBtns($btnList = null, $width = '120')
   {
-    $buttons; // our return list of markup
+    $buttons = ''; // our return list of markup
     $btnList = explode('|', $btnList); // pipe delimited list of buttons to include
     $url = craft()->request->getHostInfo() . craft()->request->getUrl(); // Get Current URL
 
